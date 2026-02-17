@@ -1,4 +1,4 @@
-# Lecture Hall Management System (LHMS)
+# Lecture Hall Management System (Timelyx)
 
 ## Software Engineering Project | MERN Stack
 
