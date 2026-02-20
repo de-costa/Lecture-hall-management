@@ -1,8 +1,8 @@
-# Timelyx (Lecture Hall Management System)
-
 <p align="center">
   <img src="img/Timelyx_logo.png" width= 50%>
 </p>
+
+# Timelyx (Lecture Hall Management System)
 
 ## Software Engineering Project | MERN Stack
 
