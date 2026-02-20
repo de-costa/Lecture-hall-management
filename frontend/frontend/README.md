@@ -1,16 +1,82 @@
-# React + Vite
+# Lecture Hall Management System – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A role-based Lecture Hall Management System designed to streamline lecture hall booking, approval workflows, scheduling and academic notifications within a university environment.
 
-Currently, two official plugins are available:
+This frontend application provides dedicated dashboards and interfaces for Lecturers, Students and Department Heads (HOD), ensuring efficient and conflict-free hall allocation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The system enables:
 
-## Expanding the ESLint configuration
+- Smart lecture hall booking
+- HOD approval workflow
+- Student timetable visibility
+- Notice and academic announcement management
+- Conflict detection and scheduling transparency
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The UI is designed with clarity, accessibility and role-based separation in mind.
+
+---
+
+## 🏗️ Tech Stack
+
+- React
+- Vite
+- JavaScript / JSX
+- CSS / Tailwind (if used)
+- ESLint
+
+---
+
+## 👥 Role-Based Interfaces
+
+### 1️⃣ Lecturer Interface
+- Dashboard (booking statistics & activity summary)
+- Hall Availability search & filter
+- My Bookings (Pending / Approved / Rejected)
+- Booking History
+- Notice Management
+- Profile Management
+
+### 2️⃣ Department Head (HOD) Interface
+- Dashboard with approval metrics
+- Pending Approval Requests
+- Approval History
+- Hall Schedule Overview
+- Notice Management
+- Booking approval / rejection workflow
+
+### 3️⃣ Student Interface
+- Academic Dashboard
+- Daily & Weekly Timetable
+- Notice Board
+- Profile Management
+
+---
+
+## ✨ Key Features
+
+- Role-Based Access Control (RBAC)
+- Conflict Detection (Prevents double booking)
+- Smart Filtering (Date, Capacity, Time Slot)
+- Approval Workflow System
+- Centralized Notice Board
+- Clean and Responsive UI
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── components/        # Reusable UI components
+├── pages/             # Role-based pages (Lecturer, HOD, Student)
+├── layouts/           # Dashboard layouts
+├── assets/            # Images and static files
+├── services/          # API integration layer
+└── App.jsx
+```
+
