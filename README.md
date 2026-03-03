@@ -254,4 +254,24 @@ This project is developed strictly for academic purposes and learning outcomes o
 
 ---
 <br>
+---
+<br>
 
+## 16. Interface Design & UI Summary
+
+### Key Design Features:
+- **Secure Onboarding**: Simplified Sign-Up page by removing role selection; users are now vetted and assigned roles manually by the **Timetable Officer (TO)**.
+- **Role-Specific Dashboards**: Custom-tailored sidebars and views for 4 distinct roles (Student, Lecturer, HOD, and TO).
+- **Minimalist UX**: Removed redundant action buttons and legend sections to provide a cleaner, data-focused workspace.
+- **Status Visualization**: Integrated a color-coded system (Green/Yellow/Red) for instant booking status recognition.
+- **Optimized Profiles**: Created specialized profile views (e.g., "Courses Teaching" for Lecturers) to replace generic statistics.
+
+### Interface Breakdown (19 Pages):
+- **Public**: Home, Login, Sign Up, About, Contact
+- **Lecturer**: Dashboard, My Bookings, Notice Management, Profile
+- **Student**: Dashboard, Timetable, Notice Board, Profile
+- **HOD**: Dashboard, Pending Approvals, Hall Schedule, Notices
+- **TO**: Admin Dashboard, User Approvals, Approval History, Notices, Profile
+
+---
+<br>
