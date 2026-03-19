@@ -11,6 +11,20 @@ const notificationSchema = new mongoose.Schema({
         ref: "User",
         required: true
     }],
+    title: {
+        type: String,
+        default: ""
+    },
+    category: {
+        type: String,
+        enum: ["GENERAL", "SIGNUP_REQUEST"],
+        default: "GENERAL"
+    },
+    targetUser: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "User",
+        required: false
+    },
     message: {
         type: String,
         required: true
