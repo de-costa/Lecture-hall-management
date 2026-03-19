@@ -1,7 +1,7 @@
 import TimeSlot from "../models/timeSlot.js";
 
 
-// ================= GET FULL TIMETABLE =================
+
 export async function getTimetable(req, res) {
     try {
         const slots = await TimeSlot.find()
@@ -18,7 +18,7 @@ export async function getTimetable(req, res) {
 }
 
 
-// ================= SEARCH AVAILABLE SLOTS =================
+//  SEARCH AVAILABLE SLOTS
 export async function searchTimeSlots(req, res) {
     try {
 
